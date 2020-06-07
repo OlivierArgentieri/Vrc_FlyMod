@@ -7,7 +7,7 @@
 ## Usage 
 
 Work with Melon loader : https://github.com/Slaynash/VRCModLoader
-Get the Vrc_FlyMod.dll in release folder in this repo, or compile by yourself and put it in Mods folder of your VrChat directories.
+Get the Vrc_FlyMod.dll in release folder in this repo, or compile it by yourself and put it in Mods folder of your VrChat directories.
 
 ## Input
 
