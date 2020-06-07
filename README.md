@@ -11,7 +11,7 @@ Get the Vrc_FlyMod.dll in release folder in this repo, or compile by yourself an
 
 ## Input
 
-| Input          |Action                         |
+| Key            |Action                         |
 |----------------|-------------------------------|
 |F1              | Increase up Axis              |
 |F2              | Decrease up Axis              |
