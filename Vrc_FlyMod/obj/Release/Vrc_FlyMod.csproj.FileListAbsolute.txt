@@ -1,0 +1,12 @@
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\Vrc_FlyMod.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\Vrc_FlyMod.pdb
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\Assembly-CSharp.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\Il2Cppmscorlib.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\MelonLoader.ModHandler.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\UnhollowerBaseLib.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\UnityEngine.CoreModule.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\bin\Release\UnityEngine.UI.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.csproj.CoreCompileInputs.cache
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.csproj.CopyComplete
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.dll
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.pdb
