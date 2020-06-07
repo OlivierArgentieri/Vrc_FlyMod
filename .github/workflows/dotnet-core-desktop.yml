@@ -58,8 +58,8 @@ jobs:
     env:
       Solution_Name: Vrc_FlyMod.sln                             # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: Vrc_FlyMod\Vrc_FlyMod.csproj           # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-    # Wap_Project_Directory: your-wap-project-directory-name    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-    #  Wap_Project_Path: your-wap-project-path                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Wap_Project_Directory: Vrc_FlyModVrc_FlyMod   # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Path: Vrc_FlyMod                  # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
