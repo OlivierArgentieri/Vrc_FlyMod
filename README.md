@@ -1,7 +1,7 @@
 # Vrc_FlyMod
 
 ## Description
- - Basic FlyMod
+ - Basic VrChat FlyMod
  - Collisions has don't be disabled at this time
 
 ## Usage 
