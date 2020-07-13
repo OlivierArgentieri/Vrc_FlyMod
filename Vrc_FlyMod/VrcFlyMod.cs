@@ -22,7 +22,7 @@ namespace Vrc_FlyMod
         private Vector3 editedPosition = Vector3.zero;
         private bool isFlyActive = false;
         private float speed = 0.01f;
-
+        private Camera playerCamera = null;
 
         public float Speed
         {
@@ -35,6 +35,18 @@ namespace Vrc_FlyMod
                     speed = minSpeed;
                 if (speed > maxSpeed)
                     speed = maxSpeed;
+            }
+        }
+
+        public Camera PlayerCamera
+        {
+            get
+            {
+                if(!playerCamera)
+                    playerCamera = localPlayer?.GetComponent<Camera>();
+                if (!playerCamera)
+                    MelonModLogger.Log("Camera not found");
+                return playerCamera;
             }
         }
 
@@ -73,6 +85,12 @@ namespace Vrc_FlyMod
             Move();
 
             UpdatePosition();
+        }
+
+        public override void OnLevelWasLoaded(int level)
+        {
+            base.OnLevelWasLoaded(level);
+            playerCamera = localPlayer?.GetComponent<Camera>();
         }
 
         #endregion
@@ -115,7 +133,11 @@ namespace Vrc_FlyMod
             float _vertical = Input.GetAxis("Vertical");
 
             editedPosition += localPlayer.transform.right * Speed * _horizontal;
-            editedPosition += localPlayer.transform.forward * Speed * _vertical;
+            //editedPosition += localPlayer.transform.forward * Speed * _vertical;
+
+            if (!PlayerCamera) return;
+            editedPosition += PlayerCamera.transform.forward * Speed * _vertical;
+            
         }
 
         void UpdatePosition()

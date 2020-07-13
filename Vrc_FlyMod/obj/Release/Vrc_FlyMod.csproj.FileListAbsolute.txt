@@ -10,3 +10,4 @@ D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.csproj.CoreCompil
 D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.csproj.CopyComplete
 D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.dll
 D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.pdb
+D:\Projets\PullGithub\FlyMod\Vrc_FlyMod\obj\Release\Vrc_FlyMod.csprojAssemblyReference.cache
