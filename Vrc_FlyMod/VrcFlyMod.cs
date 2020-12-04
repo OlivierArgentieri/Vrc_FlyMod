@@ -38,6 +38,7 @@ namespace Vrc_FlyMod
             }
         }
 
+        /*
         public Camera PlayerCamera
         {
             get
@@ -48,7 +49,7 @@ namespace Vrc_FlyMod
                     MelonModLogger.Log("Camera not found");
                 return playerCamera;
             }
-        }
+        }*/
 
         private VRCPlayer localPlayer
         {
@@ -88,6 +89,12 @@ namespace Vrc_FlyMod
         }
 
         public override void OnLevelWasLoaded(int level)
+        {
+            base.OnLevelWasLoaded(level);
+            playerCamera = localPlayer?.GetComponent<Camera>();
+        }
+
+        public override void OnLevelWasInitialized(int level)
         {
             base.OnLevelWasLoaded(level);
             playerCamera = localPlayer?.GetComponent<Camera>();
@@ -135,8 +142,8 @@ namespace Vrc_FlyMod
             editedPosition += localPlayer.transform.right * Speed * _horizontal;
             //editedPosition += localPlayer.transform.forward * Speed * _vertical;
 
-            if (!PlayerCamera) return;
-            editedPosition += PlayerCamera.transform.forward * Speed * _vertical;
+            //if (!PlayerCamera) return;
+            editedPosition += localPlayer.transform.forward * Speed * _vertical;
             
         }
 
